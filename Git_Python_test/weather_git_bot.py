@@ -13,3 +13,5 @@ print(f"Статус погоды: {w.detailed_status}")
 print(f"Температура: {w.temperature('celsius')['temp']}°C")
 print(f"Скорость ветра: {w.wind()['speed']} м/с")
 print(f"Влажность: {w.humidity}%")
+
+print('hello')
